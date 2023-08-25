@@ -1,0 +1,107 @@
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		section{
+			width: 100%;
+			height: 75px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 30px 10px;
+		}
+		p{
+			text-transform: uppercase;
+			font-size: 50px;
+			color: white;
+		}
+		li{
+			list-style: none;
+			float: left;
+			padding: 0px 10px;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		#logo{
+			
+			position: fixed;
+			left: 45%;
+			top: 30%;
+		}
+		input{
+			position: fixed;
+			top: 350px;
+			left: 27%;
+			font-size: 40px;
+			border: solid black 1px;
+			border-radius: 20px;
+			letter-spacing: 5px;
+			text-align: center;
+		}
+		#search{
+			height: 30px; 
+			width: 30px;
+			position: fixed;
+			top: 358px;
+			left: 28%;
+		}
+		#mic{
+			height: 30px; 
+			width: 30px;
+			position: fixed;
+			top: 357px;
+			left: 67%;
+		}
+		#camera{
+			height: 25px; 
+			width: 25px;
+			position: fixed;
+			top: 358px;
+			left: 71%;
+		}
+		#st{
+			color: white;
+			display: inline-block;
+			position: fixed;
+			top: 420px;
+			left: 38%;
+		}
+		#nd{
+			color: white;
+			display: inline-block;
+			position: fixed;
+			top: 420px;
+			left: 50%;
+		}
+		.tl{
+			color: white;
+			position: fixed;
+			top: 470px;
+			left: 30%
+		}
+		#re{
+			color: blue;
+		}
+		footer{
+			color: white;
+			position: fixed;
+			top: 600px; 
+
+
+		}
+		.ftpara{
+			font-size: 15px;
+			padding-left: 8px;
+
+		}
+		.firstft{
+			position: fixed;
+			left: 10%;
+		}
+		.secondft{
+			position: fixed;
+			left: 60%
+		}
